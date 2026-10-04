@@ -1,0 +1,237 @@
+.body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.navbar{
+    height: 4rem;
+    background-color: white;
+}
+.fa-compass{
+    color: rgb(233, 38, 38);
+    font-size: 1.85rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    
+}
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-social i{
+    font-size: 1.15rem;
+    margin-right: 1rem;
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    background-color: rgba(199, 207, 207, 0.877);
+    height: 7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+
+.card-image-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.card:hover .card-image-overlay {
+    opacity: 0.2;
+}
+.add-btn{
+    background-color: rgb(233, 38, 38) !important;
+    border: none !important;
+}
+.edit-btn{
+    background-color: rgb(233, 38, 38) !important;
+    border: none !important;
+}
+
+.btns{
+    display: flex;
+    margin-bottom: 60px;
+    
+}
+.show-img{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+#filters{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .filter{
+      text-align: center;
+      margin-right: 2rem;
+      opacity: 0.7;
+    }
+    .filter:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+ .search-btn{
+    background-color:  rgb(233, 38, 38) !important;
+    color: #ddd;
+    border-radius: 25px !important;
+    padding: 0 1rem 0 1rem;
+ }
+ .search-btn i{
+    display: inline;
+    margin-right: 0.5rem;
+ }
+ .search-input{
+     border-radius: 25px !important;
+     font-size: 0.8rem !important;
+     padding: 0.5rem 5rem 0.5rem 5rem !important;
+ }
+/* Dark Mode Toggle */
+
+#filters {
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle {
+    margin-left: auto;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+}
+
+.theme-toggle span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #222;
+}
+
+.theme-toggle input {
+    display: none;
+}
+
+.theme-toggle label {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #e9e9e9;
+    color: #222;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.theme-toggle label:hover {
+    transform: scale(1.08);
+}
+/* Dark Mode */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+body.dark-mode .navbar {
+    background-color: #121212 !important;
+}
+
+body.dark-mode .nav-link {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .filter {
+    color: #f5f5f5;
+}
+
+body.dark-mode .filter p {
+    color: #f5f5f5;
+}
+
+body.dark-mode .card-body {
+    color: #f5f5f5;
+}
+
+body.dark-mode .card-text {
+    color: #f5f5f5;
+}
+
+body.dark-mode .theme-toggle label {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .f-info {
+    background-color: #1c1c1c;
+}
+
+body.dark-mode .f-info-links a {
+    color: #f5f5f5;
+}
+body.dark-mode .card {
+    background-color: #121212 !important;
+}
+
+body.dark-mode .card-body {
+    background-color: #121212 !important;
+}
+body.dark-mode .theme-toggle {
+    background-color: #1e1e1e;
+    border-color: #444;
+}
+
+body.dark-mode .theme-toggle span {
+    color: #f5f5f5;
+}
+
+body.dark-mode .theme-toggle label {
+    background-color: #333;
+    color: #fff;
+}
