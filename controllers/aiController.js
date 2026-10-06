@@ -130,7 +130,11 @@ const {
     }
   };
   
+  const renderAIPage = (req, res) => {
+    res.render("ai.ejs");
+};
   
   module.exports = {
     chatWithAI,
+    renderAIPage
   };
